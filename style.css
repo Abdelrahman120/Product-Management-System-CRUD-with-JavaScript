@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;/*the cocor of the writing*/
+    font-family: system-ui;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;/*the first num about above under the second num right left*/ 
+}
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;/*when focas on the input the black border is the outline*/
+    border: none;
+    margin: 4px 0;
+    padding: 4px;
+    border-radius: 7px;
+    background-color: #222;
+    color: aliceblue;
+}
+input:focus{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.1);/*when focas the input it be big*/
+}
+.price input{
+    width: 20%;
+}
+#total{
+    padding:9px 2px ;
+    border-radius: 7px;
+    background-color: red;
+}
+#total::before{
+    content: "TOTAL:";
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s;/*the time that take between hover up and down*/
+}
+button:hover{
+    background-color:rgb(162, 82, 236);
+    letter-spacing: 1px;/*space between the letters*/
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;/*take the space that in page and make it between the things*/
+}
+.btnSearch button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+#deleteAll{
+    margin: 20px 0;
+}
