@@ -1,0 +1,1 @@
+Full small product management system project using HTML ,CSS and JavaScript ,that in it you can Create new product ,Edit old product ,Delete one product , Delete many products , Delete all the products and Search on the product with title or category , that all data stored in the local storage.
